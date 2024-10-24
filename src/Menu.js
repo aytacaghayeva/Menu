@@ -69,6 +69,7 @@ function Menu() {
         Göndər
       </button>
       {messageSent && <p>Email has been sent successfully!</p>}
+      <p className="ican"><i>supported by ICan</i></p>
     </div>
   );
 }
